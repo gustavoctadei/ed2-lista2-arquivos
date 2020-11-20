@@ -19,5 +19,8 @@ int main() {
         fprintf(saida, "%c", c);
     } while(1);
 
+    fclose(entrada);
+    fclose(saida);
+
     return 0;
 }

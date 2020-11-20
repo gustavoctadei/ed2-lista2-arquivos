@@ -20,5 +20,7 @@ int main() {
         printf("%c", c);
     }
 
+    fclose(arquivo);
+
     return 0;
 }

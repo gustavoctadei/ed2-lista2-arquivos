@@ -18,5 +18,7 @@ int main() {
         printf("%c", c);
     } while(1);
 
+    fclose(arquivo);
+
     return 0;
 }
